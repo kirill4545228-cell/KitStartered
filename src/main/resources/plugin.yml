@@ -1,0 +1,14 @@
+name: KitStartered
+version: '${project.version}'
+main: ru.kitstartered.KitStartered
+api-version: '1.21'
+description: Выдаёт стартовый набор командой /kitstartered
+commands:
+  kitstartered:
+    description: Получить стартовый набор
+    usage: /kitstartered
+    permission: kitstartered.use
+permissions:
+  kitstartered.use:
+    description: Доступ к команде /kitstartered
+    default: true
